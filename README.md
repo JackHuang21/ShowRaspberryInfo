@@ -7,9 +7,17 @@ Exactly this is my first github repository~
 
 ##Hardware Prepare##
 About pin number code: I use the wiringPi code. 
+
+Connect:
+
 -wiringPi Pin 0  ----  oled_D0 
+
 -wiringPi Pin 1  ----  oled_D1 
+
 -wiringPi Pin 2  ----  oled_RES 
+
 -wiringPi Pin 3  ----  oled_DC 
+
 -wiringPi Pin 4  ----  oled_CS
+
 
