@@ -6,7 +6,7 @@ Exactly this is my first github repository~
 2. Absolutely, you need an 0.96' oled screen.
 
 ##Hardware Prepare##
-About pin number code: I use the wiringPi code. 
+About pin number code: I use the wiringPi pin mumber code. 
 
 Connect:
 
