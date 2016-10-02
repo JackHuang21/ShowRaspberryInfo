@@ -5,6 +5,7 @@ Exactly, this is my first github repository~
 1. This software is base on WriringPi, so you must install wiringPi, before you use it.
 2. Absolutely, you need an 0.96' oled screen, a led(low level to light led), and a button(button pull to 3.3v).
 3. Hold button 2s to poweroff or hold 5s to reboot, a short press can cancle the poweroff opreation or reboot opreation. 
+
 ##Hardware Prepare##
 About pin number code: I use the wiringPi pin mumber code. 
 
@@ -25,7 +26,7 @@ Connect:
 * /sys/class/thermal/thermal_zone0/temp  (it include TEMP information)
 * /proc/meminfo  (it include RAM information)
 3. If your system didn't have files above, please edit the "data_prepare.c" with the correct path.
-4. If your have the same hardware and system as me, you can "cd /bin" & "sudo ./main"
+4. If your have the same hardware and system as me, you can "cd /bin" & "sudo ./main" or you can "make" in /sources
 5. If you want to run this programm when you power on, please add command to your local.rc.
 
 
