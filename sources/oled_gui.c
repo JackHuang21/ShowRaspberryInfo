@@ -35,6 +35,7 @@ void oled_create_main_frame(void)
     oled_clear();
     oled_string_1206(75, 0, (uint8_t *)"CPU: ", WHITE);
     oled_string_1206(75, 13, (uint8_t *)"RAM: ", WHITE);
+    oled_string_1206(0, 30, (uint8_t *)"Press key to poweroff", WHITE);
     oled_refresh_gram();
 }
 
