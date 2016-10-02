@@ -91,9 +91,9 @@ static void _shutdown(void)
     cnt ++;
     if(cnt % 10 == 0)
     {
-        oled_fill_rect(0, 127, 30, 43, BLACK);
+        oled_fill_rect(0, 127, 52, 63, BLACK);
         sprintf(str, "%02ds later Poweroff!", i);
-        oled_string_1206(0, 30, (uint8_t *)str, WHITE);
+        oled_string_1206(0, 52, (uint8_t *)str, WHITE);
         if(i % 2 == 0)
         {
             LED_H;
@@ -111,8 +111,8 @@ static void _shutdown(void)
         cnt = 0;
         i = 10;
         LED_L;
-        oled_fill_rect(0, 127, 30, 43, BLACK);
-        oled_string_1206(0, 30, (uint8_t *)"Press key to poweroff", WHITE);
+        oled_fill_rect(0, 127, 52, 63, BLACK);
+        oled_string_1206(0, 52, (uint8_t *)"Press key to poweroff", WHITE);
         return;
     }
     if(i == 0)
@@ -142,9 +142,9 @@ static void _reboot(void)
     cnt ++;
     if(cnt % 10 == 0)
     {
-        oled_fill_rect(0, 127, 30, 43, BLACK);
+        oled_fill_rect(0, 127, 52, 63, BLACK);
         sprintf(str, "%02ds later Reboot!", i);
-        oled_string_1206(0, 30, (uint8_t *)str, WHITE);
+        oled_string_1206(0, 52, (uint8_t *)str, WHITE);
         if(i % 2 == 0)
         {
             LED_H;
@@ -162,8 +162,8 @@ static void _reboot(void)
         cnt = 0;
         i = 10;
         LED_L;
-        oled_fill_rect(0, 127, 30, 43, BLACK);
-        oled_string_1206(0, 30, (uint8_t *)"Press key to poweroff", WHITE);
+        oled_fill_rect(0, 127, 52, 63, BLACK);
+        oled_string_1206(0, 52, (uint8_t *)"Press key to poweroff", WHITE);
         return;
     }
     if(i == 0)

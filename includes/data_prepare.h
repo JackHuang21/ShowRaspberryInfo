@@ -18,6 +18,8 @@ char *get_cpu_temp(char *p_str);
 char *get_ram_usage_rate(char *p_str);
 char *get_weather_info(char *p_str);
 char *get_system_time(char *p_str);
+char *get_system_ip_address(char *p_str);
+
 #endif
 
 
