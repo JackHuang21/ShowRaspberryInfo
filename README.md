@@ -26,7 +26,7 @@ Connect:
 * /sys/class/thermal/thermal_zone0/temp  (it include TEMP information)
 * /proc/meminfo  (it include RAM information)
 3. If your system didn't have files above, please edit the "data_prepare.c" with the correct path.
-4. If your have the same hardware and system as me, you can "cd /bin" & "sudo ./main"
+4. If your have the same hardware and system as me, you can "cd /bin" & "sudo ./main" or you can "make" in /sources
 5. If you want to run this programm when you power on, please add command to your local.rc.
 
 
