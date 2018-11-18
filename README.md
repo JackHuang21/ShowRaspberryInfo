@@ -1,5 +1,4 @@
 # Show Information of Raspberry Pi #
-Exactly, this is my first github repository~
 
 ####Description##
 1. This software is base on WriringPi, so you must install wiringPi, before you use it.
